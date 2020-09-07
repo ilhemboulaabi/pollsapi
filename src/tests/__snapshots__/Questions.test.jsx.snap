@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Questions should render self 1`] = `
+<Styled(MuiBox)>
+  <WithStyles(ForwardRef(LinearProgress)) />
+  <WithStyles(ForwardRef(Alert))
+    severity="info"
+  >
+    No Data available!
+  </WithStyles(ForwardRef(Alert))>
+</Styled(MuiBox)>
+`;

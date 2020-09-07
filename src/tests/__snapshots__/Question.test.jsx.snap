@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question should render self 1`] = `
+<WithStyles(ForwardRef(Grid))
+  item={true}
+  xs={12}
+>
+  <WithStyles(ForwardRef(Card))
+    className="makeStyles-card-1"
+    raised={true}
+  >
+    <WithStyles(ForwardRef(CardMedia))
+      className="makeStyles-media-3"
+      image="https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_960_720.jpg"
+      title="Contemplative Reptile"
+    />
+    <div
+      className="makeStyles-container-2"
+    >
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Typography))
+          component="h5"
+          variant="h5"
+        >
+          Favourite programming language?
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          color="textSecondary"
+          variant="subtitle1"
+        >
+          2 Nov 2014
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          size="small"
+        >
+          <Link
+            to="/questions/1"
+          >
+            Vote here!
+          </Link>
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(CardActions))>
+    </div>
+  </WithStyles(ForwardRef(Card))>
+</WithStyles(ForwardRef(Grid))>
+`;

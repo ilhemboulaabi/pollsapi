@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionDetails should render self and subcomponents 1`] = `
+<Styled(MuiBox)
+  m={2}
+>
+  <WithStyles(ForwardRef(Typography))
+    component="h5"
+    variant="h5"
+  />
+  <WithStyles(ForwardRef(List)) />
+</Styled(MuiBox)>
+`;
